@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Cyber Neon Odyssey",
+    "category": "digital",
+    "type": "image",
+    "src": "https://images.unsplash.com/photo-1618005182384-a83febe501ca?w=900&q=80",
+    "description": "Tác phẩm digital art lấy cảm hứng từ thành phố tương lai, ánh neon phản chiếu trên bề mặt kim loại và không gian cyberpunk.",
+    "date": "2026-03-15",
+    "author": "Phạm Anh Quốc"
+  },
+  {
+    "id": 2,
+    "title": "Cosmic Liquid Gold",
+    "category": "3d",
+    "type": "image",
+    "src": "https://images.unsplash.com/photo-1634017839464-5c339bbe3c28?w=900&q=80",
+    "description": "Kiệt tác 3D mô phỏng dòng chảy kim loại lỏng trong không gian vũ trụ, kết hợp ánh sáng vàng và texture siêu thực.",
+    "date": "2026-01-28",
+    "author": "Phạm Anh Quốc"
+  },
+  {
+    "id": 3,
+    "title": "Neo Cyber Ronin",
+    "category": "visual",
+    "type": "image",
+    "src": "https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?w=900&q=80",
+    "description": "Nhân vật samurai tương lai trong thế giới neo-noir. Kết hợp truyền thống Nhật Bản với thẩm mỹ cyberpunk hiện đại.",
+    "date": "2025-11-10",
+    "author": "Phạm Anh Quốc"
+  },
+  {
+    "id": 4,
+    "title": "Ethereal Gradient Flow",
+    "category": "digital",
+    "type": "image",
+    "src": "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=900&q=80",
+    "description": "Tác phẩm abstract digital với gradient mềm mại và chuyển động ánh sáng, mang lại cảm giác ethereal và hiện đại.",
+    "date": "2026-05-02",
+    "author": "Phạm Anh Quốc"
+  },
+  {
+    "id": 5,
+    "title": "Abstract Fluid Motion",
+    "category": "visual",
+    "type": "image",
+    "src": "https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=900&q=80",
+    "description": "Chuyển động chất lỏng abstract được render kỹ thuật số, tạo cảm giác sống động và nghệ thuật cao cấp.",
+    "date": "2026-02-18",
+    "author": "Phạm Anh Quốc"
+  },
+  {
+    "id": 6,
+    "title": "Motion Study Demo",
+    "category": "video",
+    "type": "video",
+    "src": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "description": "Đoạn motion graphics demo. Bạn có thể thay bằng video thật của mình sau khi upload lên thư mục assets/videos.",
+    "date": "2026-04-20",
+    "author": "Phạm Anh Quốc"
+  }
+]
