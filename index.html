@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enkai Academy | Phạm Anh Quốc</title>
+  <meta name="description" content="Enkai Academy - Không gian trưng bày nghệ thuật số & sáng tạo của Phạm Anh Quốc" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <span class="logo-icon">炎</span>
+        <span>Enkai Academy</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#gallery">Tác phẩm</a></li>
+        <li><a href="#about">Giới thiệu</a></li>
+        <li><a href="#services">Dịch vụ</a></li>
+        <li><a href="#contact">Liên hệ</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-glow"></div>
+    <div class="container hero-content">
+      <p class="hero-badge">✦ Creative Studio • Digital Art</p>
+      <h1 class="hero-title">
+        Next-Level<br />
+        <span>Digital Art</span> Showcase
+      </h1>
+      <p class="hero-desc">
+        Không gian trưng bày nghệ thuật số cao cấp của <strong>Phạm Anh Quốc</strong>. 
+        Nơi lưu giữ, chia sẻ và tôn vinh những tác phẩm Visual Art, 3D & Motion.
+      </p>
+      <div class="hero-actions">
+        <a href="#gallery" class="btn btn-primary">🎨 Khám phá Gallery</a>
+        <a href="#contact" class="btn btn-outline">Liên hệ ngay</a>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats">
+        <div class="stat-item">
+          <span class="stat-num" id="statArtworks">0</span>
+          <span class="stat-label">Tác phẩm</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">Phạm Anh Quốc</span>
+          <span class="stat-label">Founder / Owner</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">4K / 8K</span>
+          <span class="stat-label">Chất lượng</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Exclusive</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section gallery-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Portfolio Showcase</p>
+        <h2 class="section-title">Bộ sưu tập tác phẩm</h2>
+        <p class="section-desc">Khám phá và xem chi tiết từng kiệt tác nghệ thuật số</p>
+      </div>
+
+      <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-filter="all">Tất cả</button>
+        <button class="filter-btn" data-filter="visual">Visual Art</button>
+        <button class="filter-btn" data-filter="digital">Digital Art</button>
+        <button class="filter-btn" data-filter="3d">3D Art</button>
+        <button class="filter-btn" data-filter="video">Video & Animation</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- JS inject -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about-section">
+    <div class="container about-grid">
+      <div class="about-content">
+        <p class="section-label">Owner & Founder</p>
+        <h2 class="section-title">Phạm Anh Quốc</h2>
+        <p>
+          Enkai Academy được sáng lập bởi <strong>Phạm Anh Quốc</strong> với tầm nhìn tôn vinh 
+          thẩm mỹ và sức sáng tạo không giới hạn. Chúng tôi tự hào mang đến những trải nghiệm 
+          thị giác ấn tượng qua Digital Art, 3D Rendering và Motion Graphics cao cấp.
+        </p>
+        <p>
+          Đây là không gian gallery độc quyền để bạn khám phá, cảm nhận và kết nối với 
+          những tác phẩm nghệ thuật số.
+        </p>
+        <div class="about-tags">
+          <span>Digital Drawing</span>
+          <span>3D Rendering</span>
+          <span>Motion Graphics</span>
+          <span>Visual Identity</span>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="about-card-inner">
+          <span class="about-char">炎</span>
+          <h3>Enkai</h3>
+          <p>Ngọn lửa sáng tạo</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section services-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label">Creative Services</p>
+        <h2 class="section-title">Dịch vụ nghệ thuật</h2>
+        <p class="section-desc">Các lĩnh vực sáng tạo cốt lõi tại Enkai Academy</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🖼️</div>
+          <h3>Visual Art & Concept</h3>
+          <p>Minh họa nhân vật, concept thế giới và thiết kế nhận diện thị giác độc bản.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">💎</div>
+          <h3>3D Design & Modeling</h3>
+          <p>Môi trường 3D siêu thực, mô hình không gian tinh xảo và texture chân thực.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">🎬</div>
+          <h3>Video & Motion Art</h3>
+          <p>Motion graphics cao cấp, hiệu ứng điện ảnh và intro thương hiệu ấn tượng.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="container contact-box">
+      <p class="section-label">Get In Touch</p>
+      <h2 class="section-title">Liên hệ</h2>
+      <p class="section-desc">Gửi lời nhắn trực tiếp đến Phạm Anh Quốc – Enkai Academy</p>
+      <a href="mailto:contact@enkai.academy" class="btn btn-primary">🚀 Gửi tin nhắn</a>
+      <p class="contact-note">Email: contact@enkai.academy (bạn có thể đổi trong index.html)</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">炎</span> Enkai Academy
+      </div>
+      <p>© 2026 Phạm Anh Quốc. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal" id="detailModal" aria-hidden="true">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Đóng">&times;</button>
+      <div class="modal-media" id="modalMedia"></div>
+      <div class="modal-info">
+        <span class="modal-cat" id="modalCat"></span>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+        <p class="modal-meta" id="modalMeta"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
